@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
-import { GoogleGenerativeAI } from "@google/generative-ai";
-
+//import { GoogleGenerativeAI } from "@google/generative-ai";
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 dotenv.config();
 
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
